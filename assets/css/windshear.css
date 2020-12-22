@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Lato;
+    src:url("../font/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src:url("../font/Nunito-Regular.ttf");
+}
+
+#siteTitle {
+    font-size: 2rem;
+}
+
+#statHead {
+    background: linear-gradient(90deg, #5AB9EA 40%, #00CEEB 100%);
+}
+
+#grafikArea {
+    height: 200px;
+}
+
+#hisArea {
+    height: 200px;
+}
+
+.ws-logo {
+    height: 50px;
+}
+
+#btnSensRandom{
+    background-color: :#fff;
+}
+
+.gauge-info{
+  border-radius: 100%;
+
+
+}
+.ws-card {
+    border-radius:20px 20px 20px 20px;
+}
+
+.ws-card .ws-card-head {
+    border-radius:20px 20px 1px 1px;
+}
+
+.ws-card .ws-card-foot {
+    border-radius:1px 1px 20px 20px;
+}
+
+.ws-stat-info {
+    font-size:1.25rem;
+}
+
+.ws-sens-area {
+    height: 138px
+}
+
+.ws-sens-areaa {
+    height: 10px;
+}
+
+.ws-sens-area-modal {
+    height: 240px;
+    background-color: #2f2727;
+}
+
+.ws-res-area {
+    height: 240px;
+}
+
+.ws-sens-logo {
+    font-size:2rem;
+}
+
+.dash-container {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/runway-edit3.png") no-repeat center center;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dash-container .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* opacity: 0.4; */
+    opacity: 0;
+}
+
+.navbar-home {
+    background: linear-gradient(90deg, #02b8d1 20%, #4c9bc4 100%);
+}
+
+.btn-circle {
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
